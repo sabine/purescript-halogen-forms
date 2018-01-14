@@ -1,4 +1,4 @@
-module Formlets3 where
+module Formlets4 where
 
 import Prelude
 
@@ -448,7 +448,7 @@ myForm =
       "yes" ->
         pure $ unit
       _ ->
-        throwError "Username is already taken!"
+        throwError "aa Username is already taken!"
 
 
 newPasswordView field1 field2 initial errors asyncV =

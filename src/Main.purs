@@ -2,7 +2,7 @@ module Main where
 
 --import Formlets (formComponent, myForm)
 --import Formlets2 (formComponent, initMyForm, myForm, myView)
-import Formlets3 (formComponent, initMyForm, myForm, myView)
+import Formlets4 (formComponent, initMyForm, myForm, myView)
 
 import Prelude (Unit, bind, unit)
 import Control.Monad.Eff (Eff)
